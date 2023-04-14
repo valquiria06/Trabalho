@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'act';
+    src: url(Activists\ Regular.ttf);}
+
+@font-face {
+    font-family: 'vogue';
+    src: url(Vogue.ttf);
+}
+
+.brand-logo{
+    font-family: 'act';
+}
+
+.image {
+    margin: 0;
+    padding: 0;
+    padding-left: 75%;
+    border: 0;
+    line-height: 0;
+    position: relative;
+    text-align: center;
+    opacity: 1;    
+    object-fit: cover;
+  object-position: bottom;
+  padding-top: -50%;
+}
+
+
+.valquiria{
+    /* PARA MANTER A IMAGEM RESPONSIVA */
+    max-width: 1080px;   /* Máximo da largura da imagem */
+          width: 100%;
+          max-height: 500px;  /* Máximo da altura da imagem */
+          min-height: auto;      /* Mínimo da altura, por padrão “auto” */
+          background-size:200%;
+          background-repeat: no-repeat;
+}
+
+    .frame{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    border-radius: 100%;
+    border-color: #0657ec;
+    border-style: solid;
+    border-width: 1%;
+    transition: none;
+    width: 65%;
+    height: 65%; 
+    }
+
+.sobremim{
+    font-family: 'vogue';
+}
+
+.barra-vertical {
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+    right: 0;
+    width: 25%;   
+    background-color: #a5b5fdea;
+    display: inline-block;
+    z-index: -1;
+    bottom: 0;
+}
+
+
+
+ @media screen and (max-width: 768px) {
+    .barra-vertical { 
+  
+        width: 150px;   }
+} 
